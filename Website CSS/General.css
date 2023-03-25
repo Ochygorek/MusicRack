@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Inter',Arial, sans-serif;
+}
+
+:root{
+    --main-green: #4EBE9D;
+    --main-blue: #121138;
+    --main-white: #fefefe;
+    --background-green: #D2F5F8;
+    --background-blue: #E6F5FF;
+    --text-green: #143811;
+    --text-blue: #223B60;
+    --text-black: #363636;
+    --footer-black: #171717;
+    --footer-gray: #929292;
+    --footer-white: #D1D1D1;
+}
+
+/* body{
+    height: 6519px;
+} */

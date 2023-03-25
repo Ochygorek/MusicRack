@@ -1,0 +1,23 @@
+.warning-cont{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    background-color: var(--main-green);
+}
+
+.warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+
+.warning-txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: var(--main-blue);
+}
