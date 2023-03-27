@@ -77,3 +77,21 @@ section{
 }
 
 /* @media 575px */
+
+@media (max-width: 600px)
+{
+    .main-section{
+        height: auto;
+    }
+
+    .section-cont img{
+        max-width: 300px;
+    }
+
+    .mian-content h1{
+        text-align: center;
+        margin-top: 16px;
+        font-size: 40px;
+        line-height: normal;
+    }
+}

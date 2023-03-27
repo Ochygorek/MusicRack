@@ -24,7 +24,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
-    line-height: 77px;
+
     text-align: center;
     color: var(--main-blue);
 }
@@ -111,3 +111,36 @@
 }
 
 /* @media 540px */
+
+@media (max-width: 920px)
+{
+    .home-right{
+        display: none;
+    }
+    
+    .home-left{
+        display: none;
+    }
+}
+
+@media (max-width: 540px)
+{
+    .home-logo-img{
+        justify-content: center;
+    }
+
+    .h{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .p{
+        max-width: 240px;
+    }
+
+    #home{
+        height: auto;
+        padding-bottom: 32px;
+    }
+}

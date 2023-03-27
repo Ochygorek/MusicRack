@@ -71,3 +71,39 @@ footer{
 }
 
 /* @media 780px */
+
+@media (max-width: 780px)
+{
+    .footer-cont{
+        padding: 72px 64px 32px 64px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    footer{
+        height: auto;
+    }
+
+    .footer-div{
+        width: 40vw;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 32px;
+    }
+
+    .footer-cont{
+        padding: 40px 0px 32px 0px;
+    }
+
+    .footer-up{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* transform: translateX(-25%); */
+    }
+
+    .footer-down{
+        padding: 72px 32px 0px 72px;
+    }
+}

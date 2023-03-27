@@ -15,6 +15,11 @@ header{
     pointer-events: none;
 }
 
+#logo-2{
+    display: none;
+    height: 64px;
+}
+
 .header-cont{
     display: flex;
     justify-content: space-between;
@@ -49,4 +54,15 @@ header{
 .header-btn:active{
     background-color: rgba(0, 155, 108, 0.5);
     border: rgba(0, 155, 108, 0.5);
+}
+
+@media (max-width: 460px)
+{
+    #logo-1{
+        display: none;
+    }
+
+    #logo-2{
+        display: inline;
+    }
 }
